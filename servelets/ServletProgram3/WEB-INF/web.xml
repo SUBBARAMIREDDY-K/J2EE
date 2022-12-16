@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>ConfigurationDetails</servlet-class>
+         <init-param>
+            <param-name>cname</param-name>
+            <param-value>RRR</param-value>
+        </init-param>
+         <init-param>
+            <param-name>cnum</param-name>
+            <param-value>17</param-value>
+        </init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/configDet</url-pattern>
+	</servlet-mapping>
+</web-app>
